@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo 'Enter the First Number :'
-read a
-echo 'Enter the Second Number :'
-read b
+read -p 'Enter the First Number: ' a
+read -p 'Enter the Second Number: ' b
 x=$(expr "$a" + "$b")
 echo $a + $b = $x
